@@ -1,4 +1,4 @@
-import streamlit as st
+ocêimport streamlit as st
 from xhtml2pdf import pisa
 import tempfile
 import openai
@@ -155,9 +155,9 @@ with col1:
             - Fonte **Times New Roman**, tamanho 12.
             - **Espaçamento 1,5** entre linhas.
             - Texto **justificado** com **recuo de parágrafo (1,25 cm)**.
-        - Ao clicar em **Corrigir Ortografia**, o texto será revisado pela IA e corrigido.
-        - Com **Gerar Continuação com IA**, o conteúdo será estendido automaticamente com base em artigos publicados no google scholar.
-        - Ao Final tem a opção de exportar um `PDF` formatado.
+        - Ao clicar em **Corrigir Ortografia**, o texto que você escreveu será revisado pela IA e corrigido, se usar as outras opções não precisa corrigir 😊.
+        - Com **Gerar Continuação com IA**, o conteúdo que você escreveu será estendido automaticamente com base em artigos publicados no google scholar.
+        - Ao Final tem a opção de exportar um `PDF` formatado onde você pode renomear seu arquivo.
         """)
 
     texto = st.text_area("Conteúdo:", height=370, placeholder="Digite aqui seu conteúdo...")
