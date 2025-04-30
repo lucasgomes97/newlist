@@ -96,7 +96,7 @@ def obter_assuntos_em_alta():
 
 # Interface Streamlit
 st.set_page_config(
-    page_title="Gerador de Conteúdo para Newlist",
+    page_title="Gerador de Conteúdo para Newsletter",
     page_icon="https://raw.githubusercontent.com/lucasgomes97/newlist/main/logo.png",
     layout="wide"
 ) # Título da aba
@@ -133,7 +133,7 @@ st.markdown(
             <img src="https://raw.githubusercontent.com/lucasgomes97/newlist/main/ChatGPT%20Image%2029%20de%20abr.%20de%202025%2C%2011_13_54.png" width="150">
         </div>
         <div style="flex: 2; text-align: center;">
-            <h1 style="font-family: Times New Roman; margin: 0;">Gerador de Conteúdo para Newlist</h1>
+            <h1 style="font-family: Times New Roman; margin: 0;">Gerador de Conteúdo para Newsletter </h1>
         </div>
         <div style="flex: 1;"></div>
     </div>
